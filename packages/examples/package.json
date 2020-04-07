@@ -1,0 +1,21 @@
+{
+  "name": "@wetyper/focuser-examples",
+  "description": "Docs and examples for WeTyper Focuser.",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.config.js --hot --progress"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "compression-webpack-plugin": "^3.1.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^4.0.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  }
+}
